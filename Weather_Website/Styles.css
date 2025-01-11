@@ -1,0 +1,60 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url('pexels-jplenio-1118873.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+
+.container {
+    width: 500px;
+    margin: 100px auto;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 10px;
+/*    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);*/
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: flex;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000;
+    font-size: 14px;
+}
+
+.submit-button {
+    width: 50%;
+    padding: 10px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+    .submit-button:hover {
+        background-color: #0088cc;
+    }
+
